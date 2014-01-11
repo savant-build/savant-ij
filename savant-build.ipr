@@ -2,69 +2,90 @@
 <project version="4">
   <component name="ArtifactManager">
     <artifact type="jar" name="groovy-0.1.0">
-      <output-path>$PROJECT_DIR$/groovy-plugin/build/jars</output-path>
+      <output-path>$PROJECT_DIR$/../groovy-plugin/build/jars</output-path>
       <root id="archive" name="groovy-0.1.0.jar">
         <element id="module-output" name="groovy-plugin" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/groovy-plugin/src/main/resources/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/resources/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
     <artifact type="jar" name="groovy-0.1.0-src">
-      <output-path>$PROJECT_DIR$/groovy-plugin/build/jars</output-path>
+      <output-path>$PROJECT_DIR$/../groovy-plugin/build/jars</output-path>
       <root id="archive" name="groovy-0.1.0-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/groovy-plugin/src/main/groovy" />
+        <element id="dir-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/groovy" />
       </root>
     </artifact>
     <artifact type="jar" name="good-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/good/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/good/0.1.0</output-path>
       <root id="archive" name="good-0.1.0.jar">
         <element id="module-test-output" name="savant-core" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/savant-core/src/test/plugin-manifests/good/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/good/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
     <artifact type="jar" name="bad-constructor-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/bad-constructor/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-constructor/0.1.0</output-path>
       <root id="archive" name="bad-constructor-0.1.0.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/savant-core/src/test/plugin-manifests/bad-constructor/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-constructor/MANIFEST.MF" />
         </element>
         <element id="module-test-output" name="savant-core" />
       </root>
     </artifact>
     <artifact type="jar" name="bad-class-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/bad-class/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-class/0.1.0</output-path>
       <root id="archive" name="bad-class-0.1.0.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/savant-core/src/test/plugin-manifests/bad-class/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-class/MANIFEST.MF" />
         </element>
         <element id="module-test-output" name="savant-core" />
       </root>
     </artifact>
     <artifact type="jar" name="bad-manifest-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/bad-manifest/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-manifest/0.1.0</output-path>
       <root id="archive" name="bad-manifest-0.1.0.jar">
         <element id="module-test-output" name="savant-core" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/savant-core/src/test/plugin-manifests/bad-manifest/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-manifest/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
     <artifact type="jar" name="missing-class-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/missing-class/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/missing-class/0.1.0</output-path>
       <root id="archive" name="missing-class-0.1.0.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/savant-core/src/test/plugin-manifests/missing-class/MANIFEST.MF" />
           <element id="module-test-output" name="savant-core" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/missing-class/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
     <artifact type="jar" name="missing-manifest-0.1.0">
-      <output-path>$PROJECT_DIR$/savant-core/src/test/plugin-repository/org/savantbuild/test/missing-manifest/0.1.0</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/missing-manifest/0.1.0</output-path>
       <root id="archive" name="missing-manifest-0.1.0.jar">
         <element id="module-test-output" name="savant-core" />
+      </root>
+    </artifact>
+    <artifact name="savant-maven-bridge-0.1.0">
+      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/distribution</output-path>
+      <root id="root">
+        <element id="directory" name="libs">
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-dependency-management/libs/ganymed-ssh2-2.10.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/jdom-2.0.5.jar" />
+          <element id="archive" name="savant-maven-bridge-0.1.0.jar">
+            <element id="directory" name="META-INF">
+              <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/src/main/resources/META-INF/MANIFEST.MF" />
+            </element>
+            <element id="module-output" name="savant-maven-bridge" />
+            <element id="module-output" name="savant-dependency-management" />
+            <element id="module-output" name="savant-utils" />
+          </element>
+        </element>
+        <element id="directory" name="bin">
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/src/main/shell/savant-maven-bridge.sh" />
+        </element>
       </root>
     </artifact>
   </component>
@@ -270,7 +291,7 @@
         </XML>
       </value>
     </option>
-    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Uber" />
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Inversoft" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,14 +329,14 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dependency-plugin/dependency-plugin.iml" filepath="$PROJECT_DIR$/dependency-plugin/dependency-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/file-plugin/file-plugin.iml" filepath="$PROJECT_DIR$/file-plugin/file-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/groovy-plugin/groovy-plugin.iml" filepath="$PROJECT_DIR$/groovy-plugin/groovy-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/groovy-testng-plugin/groovy-testng-plugin.iml" filepath="$PROJECT_DIR$/groovy-testng-plugin/groovy-testng-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/savant-core/savant-core.iml" filepath="$PROJECT_DIR$/savant-core/savant-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/savant-dependency-management/savant-dependency-management.iml" />
-      <module fileurl="file://$PROJECT_DIR$/savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/savant-maven-bridge/savant-maven-bridge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/savant-utils/savant-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" filepath="$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../file-plugin/file-plugin.iml" filepath="$PROJECT_DIR$/../file-plugin/file-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" filepath="$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" filepath="$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -350,11 +371,14 @@
     </configuration>
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/groovy-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/savant-core" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/savant-dependency-management" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/savant-maven-bridge" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/savant-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dependency-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../file-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../groovy-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../groovy-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
   </component>
 </project>
 
