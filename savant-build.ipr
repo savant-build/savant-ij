@@ -442,6 +442,7 @@
           </indentOptions>
         </codeStyleSettings>
         <codeStyleSettings language="Groovy">
+          <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
           <option name="FIELD_ANNOTATION_WRAP" value="0" />
           <option name="PARENT_SETTINGS_INSTALLED" value="true" />
           <indentOptions>
