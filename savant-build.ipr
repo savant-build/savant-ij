@@ -6,7 +6,7 @@
       <root id="archive" name="groovy-0.1.0-{integration}.jar">
         <element id="module-output" name="groovy-plugin" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/resources/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
@@ -84,7 +84,7 @@
       <output-path>$PROJECT_DIR$/../dependency-plugin/build/jars</output-path>
       <root id="archive" name="dependency-0.1.0-{integration}.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/resources/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="dependency-plugin" />
       </root>
@@ -99,7 +99,7 @@
       <output-path>$PROJECT_DIR$/../file-plugin/build/jars</output-path>
       <root id="archive" name="file-0.1.0-{integration}.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../file-plugin/src/main/resources/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../file-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="file-plugin" />
       </root>
@@ -114,7 +114,7 @@
       <output-path>$PROJECT_DIR$/../groovy-testng-plugin/build/jars</output-path>
       <root id="archive" name="groovy-testng-0.1.0-{integration}.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/resources/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="groovy-testng-plugin" />
       </root>
@@ -858,6 +858,8 @@
       <module fileurl="file://$PROJECT_DIR$/../file-plugin/file-plugin.iml" filepath="$PROJECT_DIR$/../file-plugin/file-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" filepath="$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" filepath="$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
@@ -902,6 +904,7 @@
     <mapping directory="$PROJECT_DIR$/../groovy-testng-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
   </component>
