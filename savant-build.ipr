@@ -912,6 +912,7 @@
     <mapping directory="$PROJECT_DIR$/../file-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../idea-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
