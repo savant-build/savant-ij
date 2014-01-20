@@ -74,6 +74,9 @@
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/commons-lang-2.6.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-dependency-management/libs/ganymed-ssh2-2.10.0.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/jdom-2.0.5.jar" />
+          <element id="artifact" artifact-name="savant-maven-bridge-0.1.0-{integration}" />
+          <element id="artifact" artifact-name="savant-dependency-management-0.1.0-{integration}" />
+          <element id="artifact" artifact-name="savant-utils-0.1.0-{integration}" />
         </element>
         <element id="directory" name="bin">
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/src/main/shell/savant-maven-bridge" />
@@ -175,6 +178,12 @@
       <output-path>$PROJECT_DIR$/../savant-utils/build/jars</output-path>
       <root id="archive" name="savant-utils-0.1.0-{integration}-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../savant-utils/src/main/java" />
+      </root>
+    </artifact>
+    <artifact type="jar" name="savant-maven-bridge-0.1.0-{integration}">
+      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/jars</output-path>
+      <root id="archive" name="savant-maven-bridge-0.1.0-{integration}.jar">
+        <element id="module-output" name="savant-maven-bridge" />
       </root>
     </artifact>
   </component>
@@ -858,6 +867,7 @@
       <module fileurl="file://$PROJECT_DIR$/../file-plugin/file-plugin.iml" filepath="$PROJECT_DIR$/../file-plugin/file-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" filepath="$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" filepath="$PROJECT_DIR$/../groovy-testng-plugin/groovy-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
@@ -902,6 +912,8 @@
     <mapping directory="$PROJECT_DIR$/../file-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
