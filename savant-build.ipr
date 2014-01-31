@@ -870,6 +870,7 @@
       <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
