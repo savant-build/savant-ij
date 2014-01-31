@@ -916,6 +916,7 @@
     <mapping directory="$PROJECT_DIR$/../idea-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../release-git-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
