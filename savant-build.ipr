@@ -426,7 +426,6 @@
             <package name="" withSubpackages="true" static="false" />
           </value>
         </option>
-        <option name="HTML_KEEP_WHITESPACES" value="true" />
         <option name="HTML_ATTRIBUTE_WRAP" value="0" />
         <option name="HTML_TEXT_WRAP" value="0" />
         <option name="WRAP_COMMENTS" value="true" />
