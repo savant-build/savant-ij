@@ -874,7 +874,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../wikis/wikis.iml" filepath="$PROJECT_DIR$/../wikis/wikis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
