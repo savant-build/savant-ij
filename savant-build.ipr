@@ -874,6 +874,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wikis/wikis.iml" filepath="$PROJECT_DIR$/../wikis/wikis.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -921,6 +922,18 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-core.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-management.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-file-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-groovy-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-groovy-testng-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-idea-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-java-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-java-testng-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-maven-bridge.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-release-git-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-utils.wiki" vcs="Git" />
   </component>
 </project>
 
