@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ArtifactManager">
-    <artifact type="jar" name="groovy-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../groovy-plugin/build/jars</output-path>
-      <root id="archive" name="groovy-0.1.0-{integration}.jar">
+    <artifact type="jar" name="groovy-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/groovy/0.1.0</output-path>
+      <root id="archive" name="groovy-0.1.0.jar">
         <element id="module-output" name="groovy-plugin" />
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
-    <artifact type="jar" name="groovy-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../groovy-plugin/build/jars</output-path>
-      <root id="archive" name="groovy-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="groovy-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/groovy/0.1.0</output-path>
+      <root id="archive" name="groovy-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/groovy" />
       </root>
     </artifact>
@@ -74,57 +74,57 @@
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/commons-lang-2.6.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-dependency-management/libs/ganymed-ssh2-2.10.0.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/jdom-2.0.5.jar" />
-          <element id="artifact" artifact-name="savant-maven-bridge-0.1.0-{integration}" />
-          <element id="artifact" artifact-name="savant-dependency-management-0.1.0-{integration}" />
-          <element id="artifact" artifact-name="savant-utils-0.1.0-{integration}" />
+          <element id="artifact" artifact-name="savant-maven-bridge-0.1.0" />
+          <element id="artifact" artifact-name="savant-dependency-management-0.1.0" />
+          <element id="artifact" artifact-name="savant-utils-0.1.0" />
         </element>
         <element id="directory" name="bin">
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/src/main/shell/savant-maven-bridge" />
         </element>
       </root>
     </artifact>
-    <artifact type="jar" name="dependency-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../dependency-plugin/build/jars</output-path>
-      <root id="archive" name="dependency-0.1.0-{integration}.jar">
+    <artifact type="jar" name="dependency-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/dependency/0.1.0</output-path>
+      <root id="archive" name="dependency-0.1.0.jar">
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="dependency-plugin" />
       </root>
     </artifact>
-    <artifact type="jar" name="dependency-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../dependency-plugin/build/jars</output-path>
-      <root id="archive" name="dependency-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="dependency-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/dependency/0.1.0</output-path>
+      <root id="archive" name="dependency-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/groovy" />
       </root>
     </artifact>
-    <artifact type="jar" name="file-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../file-plugin/build/jars</output-path>
-      <root id="archive" name="file-0.1.0-{integration}.jar">
+    <artifact type="jar" name="file-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/file/0.1.0</output-path>
+      <root id="archive" name="file-0.1.0.jar">
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/../file-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="file-plugin" />
       </root>
     </artifact>
-    <artifact type="jar" name="file-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../file-plugin/build/jars</output-path>
-      <root id="archive" name="file-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="file-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/file/0.1.0</output-path>
+      <root id="archive" name="file-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../file-plugin/src/main/groovy" />
       </root>
     </artifact>
-    <artifact type="jar" name="groovy-testng-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../groovy-testng-plugin/build/jars</output-path>
-      <root id="archive" name="groovy-testng-0.1.0-{integration}.jar">
+    <artifact type="jar" name="groovy-testng-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/groovy-testng/0.1.0</output-path>
+      <root id="archive" name="groovy-testng-0.1.0.jar">
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="groovy-testng-plugin" />
       </root>
     </artifact>
-    <artifact type="jar" name="groovy-testng-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../groovy-testng-plugin/build/jars</output-path>
-      <root id="archive" name="groovy-testng-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="groovy-testng-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/groovy-testng/0.1.0</output-path>
+      <root id="archive" name="groovy-testng-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/groovy" />
       </root>
     </artifact>
@@ -136,53 +136,53 @@
           <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/scripts/sb.bat" />
         </element>
         <element id="directory" name="lib">
-          <element id="artifact" artifact-name="savant-core-0.1.0-{integration}" />
-          <element id="artifact" artifact-name="savant-dependency-management-0.1.0-{integration}" />
-          <element id="artifact" artifact-name="savant-utils-0.1.0-{integration}" />
+          <element id="artifact" artifact-name="savant-core-0.1.0" />
+          <element id="artifact" artifact-name="savant-dependency-management-0.1.0" />
+          <element id="artifact" artifact-name="savant-utils-0.1.0" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-dependency-management/libs/ganymed-ssh2-2.10.0.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../savant-core/libs/groovy-all-2.2.1-indy.jar" />
         </element>
       </root>
     </artifact>
-    <artifact type="jar" name="savant-core-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../savant-core/build/jars</output-path>
-      <root id="archive" name="savant-core-0.1.0-{integration}.jar">
+    <artifact type="jar" name="savant-core-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-core/0.1.0</output-path>
+      <root id="archive" name="savant-core-0.1.0.jar">
         <element id="module-output" name="savant-core" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-dependency-management-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../savant-dependency-management/build/jars</output-path>
-      <root id="archive" name="savant-dependency-management-0.1.0-{integration}.jar">
+    <artifact type="jar" name="savant-dependency-management-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-dependency-management/0.1.0</output-path>
+      <root id="archive" name="savant-dependency-management-0.1.0.jar">
         <element id="module-output" name="savant-dependency-management" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-utils-0.1.0-{integration}">
-      <output-path>$PROJECT_DIR$/../savant-utils/build/jars</output-path>
-      <root id="archive" name="savant-utils-0.1.0-{integration}.jar">
+    <artifact type="jar" name="savant-utils-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-utils/0.1.0</output-path>
+      <root id="archive" name="savant-utils-0.1.0.jar">
         <element id="module-output" name="savant-utils" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-core-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../savant-core/build/jars</output-path>
-      <root id="archive" name="savant-core-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="savant-core-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-core/0.1.0</output-path>
+      <root id="archive" name="savant-core-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../savant-core/src/main/java" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-dependency-management-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../savant-dependency-management/build/jars</output-path>
-      <root id="archive" name="savant-dependency-management-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="savant-dependency-management-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-dependency-management/0.1.0</output-path>
+      <root id="archive" name="savant-dependency-management-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../savant-dependency-management/src/main/java" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-utils-0.1.0-{integration}-src">
-      <output-path>$PROJECT_DIR$/../savant-utils/build/jars</output-path>
-      <root id="archive" name="savant-utils-0.1.0-{integration}-src.jar">
+    <artifact type="jar" name="savant-utils-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/savant-utils/0.1.0</output-path>
+      <root id="archive" name="savant-utils-0.1.0-src.jar">
         <element id="dir-copy" path="$PROJECT_DIR$/../savant-utils/src/main/java" />
       </root>
     </artifact>
-    <artifact type="jar" name="savant-maven-bridge-0.1.0-{integration}">
+    <artifact type="jar" name="savant-maven-bridge-0.1.0">
       <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/jars</output-path>
-      <root id="archive" name="savant-maven-bridge-0.1.0-{integration}.jar">
+      <root id="archive" name="savant-maven-bridge-0.1.0.jar">
         <element id="module-output" name="savant-maven-bridge" />
       </root>
     </artifact>
