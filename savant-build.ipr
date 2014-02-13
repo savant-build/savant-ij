@@ -16,57 +16,6 @@
         <element id="dir-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/groovy" />
       </root>
     </artifact>
-    <artifact type="jar" name="good-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/good/0.1.0</output-path>
-      <root id="archive" name="good-0.1.0.jar">
-        <element id="module-test-output" name="savant-core" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/good/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="bad-constructor-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-constructor/0.1.0</output-path>
-      <root id="archive" name="bad-constructor-0.1.0.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-constructor/MANIFEST.MF" />
-        </element>
-        <element id="module-test-output" name="savant-core" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="bad-class-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-class/0.1.0</output-path>
-      <root id="archive" name="bad-class-0.1.0.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-class/MANIFEST.MF" />
-        </element>
-        <element id="module-test-output" name="savant-core" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="bad-manifest-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/bad-manifest/0.1.0</output-path>
-      <root id="archive" name="bad-manifest-0.1.0.jar">
-        <element id="module-test-output" name="savant-core" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/bad-manifest/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="missing-class-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/missing-class/0.1.0</output-path>
-      <root id="archive" name="missing-class-0.1.0.jar">
-        <element id="directory" name="META-INF">
-          <element id="module-test-output" name="savant-core" />
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/test/plugin-manifests/missing-class/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="missing-manifest-0.1.0">
-      <output-path>$PROJECT_DIR$/../savant-core/src/test/plugin-repository/org/savantbuild/test/missing-manifest/0.1.0</output-path>
-      <root id="archive" name="missing-manifest-0.1.0.jar">
-        <element id="module-test-output" name="savant-core" />
-      </root>
-    </artifact>
     <artifact name="savant-maven-bridge-distribution">
       <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/distribution</output-path>
       <root id="root">
@@ -184,6 +133,21 @@
       <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/jars</output-path>
       <root id="archive" name="savant-maven-bridge-0.1.0.jar">
         <element id="module-output" name="savant-maven-bridge" />
+      </root>
+    </artifact>
+    <artifact type="jar" name="release-git-0.1.0">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/release-git/0.1.0</output-path>
+      <root id="archive" name="release-git-0.1.0.jar">
+        <element id="module-output" name="release-git-plugin" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+      </root>
+    </artifact>
+    <artifact type="jar" name="release-git-0.1.0-src">
+      <output-path>$PROJECT_DIR$/../../../../inversoft/repositories/savant/org/savantbuild/plugin/release-git/0.1.0</output-path>
+      <root id="archive" name="release-git-0.1.0-src.jar">
+        <element id="dir-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/groovy" />
       </root>
     </artifact>
   </component>
