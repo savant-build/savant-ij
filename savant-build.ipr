@@ -17,7 +17,7 @@
       </root>
     </artifact>
     <artifact name="savant-maven-bridge-distribution">
-      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/distribution</output-path>
+      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/distributions/exploded</output-path>
       <root id="root">
         <element id="directory" name="lib">
           <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/commons-lang-2.6.jar" />
@@ -36,7 +36,7 @@
       <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/dependency/0.2.0-{integration}</output-path>
       <root id="archive" name="dependency-0.2.0-{integration}.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/resources/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="dependency-plugin" />
       </root>
@@ -392,6 +392,8 @@
             <package name="" withSubpackages="true" static="false" />
           </value>
         </option>
+        <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
+        <option name="HTML_KEEP_WHITESPACES" value="true" />
         <option name="HTML_ATTRIBUTE_WRAP" value="0" />
         <option name="HTML_TEXT_WRAP" value="0" />
         <option name="WRAP_COMMENTS" value="true" />
@@ -416,13 +418,13 @@
           </indentOptions>
         </codeStyleSettings>
         <codeStyleSettings language="Groovy">
-          <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
           <option name="FIELD_ANNOTATION_WRAP" value="0" />
           <option name="PARENT_SETTINGS_INSTALLED" value="true" />
           <indentOptions>
             <option name="INDENT_SIZE" value="2" />
             <option name="CONTINUATION_INDENT_SIZE" value="4" />
             <option name="TAB_SIZE" value="2" />
+            <option name="LABEL_INDENT_SIZE" value="2" />
           </indentOptions>
         </codeStyleSettings>
         <codeStyleSettings language="HTML">
@@ -607,13 +609,46 @@
               </rule>
               <rule>
                 <match>
-                  <FIELD />
+                  <AND>
+                    <CONSTRUCTOR />
+                    <STATIC />
+                  </AND>
                 </match>
                 <order>BY_NAME</order>
               </rule>
               <rule>
                 <match>
-                  <CONSTRUCTOR />
+                  <AND>
+                    <CONSTRUCTOR />
+                    <PUBLIC />
+                  </AND>
+                </match>
+                <order>BY_NAME</order>
+              </rule>
+              <rule>
+                <match>
+                  <AND>
+                    <CONSTRUCTOR />
+                    <PROTECTED />
+                  </AND>
+                </match>
+                <order>BY_NAME</order>
+              </rule>
+              <rule>
+                <match>
+                  <AND>
+                    <CONSTRUCTOR />
+                    <PACKAGE_PRIVATE />
+                  </AND>
+                </match>
+                <order>BY_NAME</order>
+              </rule>
+              <rule>
+                <match>
+                  <AND>
+                    <CONSTRUCTOR />
+                    <PRIVATE />
+                  </AND>
                 </match>
                 <order>BY_NAME</order>
               </rule>
@@ -661,15 +696,6 @@
                 <match>
                   <AND>
                     <METHOD />
-                    <STATIC />
-                  </AND>
-                </match>
-                <order>BY_NAME</order>
-              </rule>
-              <rule>
-                <match>
-                  <AND>
-                    <METHOD />
                     <PUBLIC />
                   </AND>
                 </match>
@@ -699,12 +725,6 @@
                     <METHOD />
                     <PRIVATE />
                   </AND>
-                </match>
-                <order>BY_NAME</order>
-              </rule>
-              <rule>
-                <match>
-                  <METHOD />
                 </match>
                 <order>BY_NAME</order>
               </rule>
@@ -871,6 +891,7 @@
     </configuration>
   </component>
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../database-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dependency-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../file-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-plugin" vcs="Git" />
