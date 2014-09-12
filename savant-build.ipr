@@ -6,7 +6,7 @@
       <root id="archive" name="groovy-0.2.0-{integration}.jar">
         <element id="module-output" name="groovy-plugin" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/resources/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
@@ -60,7 +60,7 @@
       <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/groovy-testng/0.2.0-{integration}</output-path>
       <root id="archive" name="groovy-testng-0.2.0-{integration}.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/resources/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="groovy-testng-plugin" />
       </root>
@@ -92,7 +92,7 @@
       <root id="archive" name="savant-core-0.2.0-{integration}.jar">
         <element id="module-output" name="savant-core" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/resources/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
@@ -137,7 +137,7 @@
       <root id="archive" name="release-git-0.2.0-{integration}.jar">
         <element id="module-output" name="release-git-plugin" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/resources/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/META-INF/MANIFEST.MF" />
         </element>
       </root>
     </artifact>
@@ -905,6 +905,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../webapp-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-core.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-management.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-plugin.wiki" vcs="Git" />
