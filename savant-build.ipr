@@ -72,7 +72,7 @@
       </root>
     </artifact>
     <artifact name="savant-core-distribution">
-      <output-path>$PROJECT_DIR$/../savant-core/build/distribution</output-path>
+      <output-path>$PROJECT_DIR$/../savant-core/build/distributions/exploded</output-path>
       <root id="root">
         <element id="directory" name="bin">
           <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/scripts/sb" />
