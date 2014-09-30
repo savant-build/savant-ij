@@ -806,43 +806,10 @@
     </option>
     <option name="USE_PER_PROJECT_SETTINGS" value="true" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>PHP</id>
-          </State>
-          <State>
-            <id>Packaging issues</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../database-plugin/database-plugin.iml" filepath="$PROJECT_DIR$/../database-plugin/database-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" filepath="$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" filepath="$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../file-plugin/file-plugin.iml" filepath="$PROJECT_DIR$/../file-plugin/file-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" filepath="$PROJECT_DIR$/../groovy-plugin/groovy-plugin.iml" />
@@ -855,6 +822,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" filepath="$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
     </modules>
@@ -889,9 +857,24 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
+    <configuration default="false" name="Debug" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../database-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../deb-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dependency-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../file-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../groovy-plugin" vcs="Git" />
@@ -905,8 +888,11 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tomcat-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../webapp-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-core.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-database-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-deb-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-management.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-file-plugin.wiki" vcs="Git" />
@@ -917,7 +903,9 @@
     <mapping directory="$PROJECT_DIR$/../wikis/savant-java-testng-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-maven-bridge.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-release-git-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-tomcat-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-utils.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-webapp-plugin.wiki" vcs="Git" />
   </component>
 </project>
 
