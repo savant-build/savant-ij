@@ -840,6 +840,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-io/savant-io.iml" filepath="$PROJECT_DIR$/../savant-io/savant-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" filepath="$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" filepath="$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
@@ -907,6 +908,7 @@
     <mapping directory="$PROJECT_DIR$/../savant-io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../spock-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tomcat-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../webapp-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-core.wiki" vcs="Git" />

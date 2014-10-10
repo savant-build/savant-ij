@@ -26,6 +26,7 @@ clone_plugin java-testng-plugin
 clone_plugin release-git-plugin
 clone_plugin tomcat-plugin
 clone_plugin webapp-plugin
+clone_plugin spock-plugin
 
 clone savant-core
 clone savant-dependency-management
@@ -54,3 +55,4 @@ clone savant-release-git-plugin.wiki
 clone savant-tomcat-plugin.wiki
 clone savant-utils.wiki
 clone savant-webapp-plugin.wiki
+clone savant-spock-plugin.wiki
