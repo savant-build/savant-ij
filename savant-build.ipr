@@ -398,6 +398,23 @@
         <option name="HTML_TEXT_WRAP" value="0" />
         <option name="WRAP_COMMENTS" value="true" />
         <option name="FIELD_ANNOTATION_WRAP" value="0" />
+        <GroovyCodeStyleSettings>
+          <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
+          <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
+          <option name="IMPORT_LAYOUT_TABLE">
+            <value>
+              <package name="javax" withSubpackages="true" static="false" />
+              <package name="java" withSubpackages="true" static="false" />
+              <emptyLine />
+              <package name="org" withSubpackages="true" static="false" />
+              <emptyLine />
+              <package name="net" withSubpackages="true" static="false" />
+              <emptyLine />
+              <package name="" withSubpackages="true" static="false" />
+            </value>
+          </option>
+          <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
+        </GroovyCodeStyleSettings>
         <JSCodeStyleSettings>
           <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
         </JSCodeStyleSettings>
@@ -820,6 +837,7 @@
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-io/savant-io.iml" filepath="$PROJECT_DIR$/../savant-io/savant-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
@@ -886,6 +904,7 @@
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tomcat-plugin" vcs="Git" />
