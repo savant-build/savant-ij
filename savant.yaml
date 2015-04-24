@@ -1,0 +1,22 @@
+projects:
+  - savant-io
+  - savant-utils
+  - savant-dependency-management
+  - savant-core
+  - savant-maven-bridge
+  - dependency-plugin
+  - file-plugin
+  - database-plugin
+  - deb-plugin
+  - groovy-plugin
+  - groovy-testng-plugin
+  - java-plugin
+  - java-testng-plugin
+  - release-git-plugin
+  - spock-plugin
+  - tomcat-plugin
+  - webapp-plugin
+front-ends:
+bundles:
+  - savant-core
+  - savant-maven-bridge

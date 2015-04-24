@@ -1,159 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactManager">
-    <artifact type="jar" name="groovy-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/groovy/0.2.0-{integration}</output-path>
-      <root id="archive" name="groovy-0.2.0-{integration}.jar">
-        <element id="module-output" name="groovy-plugin" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/META-INF/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="groovy-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/groovy/0.2.0-{integration}</output-path>
-      <root id="archive" name="groovy-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../groovy-plugin/src/main/groovy" />
-      </root>
-    </artifact>
-    <artifact name="savant-maven-bridge-distribution">
-      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/distributions/exploded</output-path>
-      <root id="root">
-        <element id="directory" name="lib">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/commons-lang-2.6.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-dependency-management/libs/ganymed-ssh2-2.10.0.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/libs/jdom-2.0.5.jar" />
-          <element id="artifact" artifact-name="savant-maven-bridge-0.2.0" />
-          <element id="artifact" artifact-name="savant-dependency-management-0.2.0-{integration}" />
-          <element id="artifact" artifact-name="savant-utils-0.2.0-{integration}" />
-        </element>
-        <element id="directory" name="bin">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-maven-bridge/src/main/shell/savant-maven-bridge" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="dependency-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/dependency/0.2.0-{integration}</output-path>
-      <root id="archive" name="dependency-0.2.0-{integration}.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="dependency-plugin" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="file-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/file/0.2.0-{integration}</output-path>
-      <root id="archive" name="file-0.2.0-{integration}.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../file-plugin/src/main/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="file-plugin" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="file-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/file/0.2.0-{integration}</output-path>
-      <root id="archive" name="file-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../file-plugin/src/main/groovy" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="groovy-testng-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/groovy-testng/0.2.0-{integration}</output-path>
-      <root id="archive" name="groovy-testng-0.2.0-{integration}.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="groovy-testng-plugin" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="groovy-testng-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/groovy-testng/0.2.0-{integration}</output-path>
-      <root id="archive" name="groovy-testng-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../groovy-testng-plugin/src/main/groovy" />
-      </root>
-    </artifact>
-    <artifact name="savant-core-distribution">
-      <output-path>$PROJECT_DIR$/../savant-core/build/distributions/exploded</output-path>
-      <root id="root">
-        <element id="directory" name="bin">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/scripts/sb" />
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/scripts/sb.bat" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="artifact" artifact-name="savant-core-0.2.0-{integration}" />
-          <element id="artifact" artifact-name="savant-dependency-management-0.2.0-{integration}" />
-          <element id="artifact" artifact-name="savant-utils-0.2.0-{integration}" />
-          <element id="file-copy" path="$USER_HOME$/.savant/cache/org/codehaus/groovy/groovy/2.2.1/groovy-all-2.2.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.savant/cache/ch/ethz/ganymed/ganymed-ssh2/261.0.0/ganymed-ssh2-261.0.0.jar" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-core-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-core/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-core-0.2.0-{integration}.jar">
-        <element id="module-output" name="savant-core" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../savant-core/src/main/META-INF/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-dependency-management-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-dependency-management/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-dependency-management-0.2.0-{integration}.jar">
-        <element id="module-output" name="savant-dependency-management" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-utils-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-utils/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-utils-0.2.0-{integration}.jar">
-        <element id="module-output" name="savant-utils" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-core-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-core/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-core-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../savant-core/src/main/java" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-dependency-management-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-dependency-management/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-dependency-management-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../savant-dependency-management/src/main/java" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-utils-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/savant-utils/0.2.0-{integration}</output-path>
-      <root id="archive" name="savant-utils-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../savant-utils/src/main/java" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="savant-maven-bridge-0.2.0">
-      <output-path>$PROJECT_DIR$/../savant-maven-bridge/build/jars</output-path>
-      <root id="archive" name="savant-maven-bridge-0.2.0.jar">
-        <element id="module-output" name="savant-maven-bridge" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="release-git-0.2.0-{integration}">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/release-git/0.2.0-{integration}</output-path>
-      <root id="archive" name="release-git-0.2.0-{integration}.jar">
-        <element id="module-output" name="release-git-plugin" />
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/META-INF/MANIFEST.MF" />
-        </element>
-      </root>
-    </artifact>
-    <artifact type="jar" name="release-git-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/release-git/0.2.0-{integration}</output-path>
-      <root id="archive" name="release-git-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../release-git-plugin/src/main/groovy" />
-      </root>
-    </artifact>
-    <artifact type="jar" name="dependency-0.2.0-{integration}-src">
-      <output-path>$USER_HOME$/.savant/cache/org/savantbuild/plugin/dependency/0.2.0-{integration}</output-path>
-      <root id="archive" name="dependency-0.2.0-{integration}-src.jar">
-        <element id="dir-copy" path="$PROJECT_DIR$/../dependency-plugin/src/main/groovy" />
-      </root>
-    </artifact>
-  </component>
   <component name="BashSupportProjectSettings">
     <option name="globalVariables">
       <set>
@@ -210,30 +56,6 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="9A174EF58BDA19265C2CBCB8750FAC62" />
-  <component name="InspectionProjectProfileManager">
-    <profiles>
-      <profile version="1.0" is_locked="false">
-        <option name="myName" value="Project Default" />
-        <option name="myLocal" value="false" />
-        <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
-          <option name="groups">
-            <value>
-              <list size="5">
-                <item index="0" class="java.lang.String" itemvalue="unit" />
-                <item index="1" class="java.lang.String" itemvalue="acceptance" />
-                <item index="2" class="java.lang.String" itemvalue="functional" />
-                <item index="3" class="java.lang.String" itemvalue="functional" />
-                <item index="4" class="java.lang.String" itemvalue="integration" />
-              </list>
-            </value>
-          </option>
-        </inspection_tool>
-      </profile>
-    </profiles>
-    <option name="PROJECT_PROFILE" value="Project Default" />
-    <option name="USE_PROJECT_PROFILE" value="true" />
-    <version value="1.0" />
-  </component>
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -373,7 +195,6 @@
         <option name="LINE_SEPARATOR" value="&#10;" />
         <option name="GENERATE_FINAL_LOCALS" value="true" />
         <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
-        <option name="USE_FQ_CLASS_NAMES_IN_JAVADOC" value="false" />
         <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
         <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
         <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
@@ -418,6 +239,9 @@
         <JSCodeStyleSettings>
           <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
         </JSCodeStyleSettings>
+        <JavaCodeStyleSettings>
+          <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+        </JavaCodeStyleSettings>
         <XML>
           <option name="XML_ATTRIBUTE_WRAP" value="0" />
           <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
