@@ -56,6 +56,24 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="9A174EF58BDA19265C2CBCB8750FAC62" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <option name="myLocal" value="true" />
+      <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="groups">
+          <value>
+            <list size="1">
+              <item index="0" class="java.lang.String" itemvalue="unit" />
+            </list>
+          </value>
+        </option>
+      </inspection_tool>
+    </profile>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
+  </component>
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
