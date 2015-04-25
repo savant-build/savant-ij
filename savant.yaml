@@ -10,6 +10,7 @@ projects:
   - deb-plugin
   - groovy-plugin
   - groovy-testng-plugin
+  - idea-plugin
   - java-plugin
   - java-testng-plugin
   - release-git-plugin
