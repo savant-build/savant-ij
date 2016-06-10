@@ -1,22 +1,40 @@
 projects:
-  - savant-io
-  - savant-utils
-  - savant-dependency-management
-  - savant-core
-  - savant-maven-bridge
-  - dependency-plugin
-  - file-plugin
-  - database-plugin
-  - deb-plugin
-  - groovy-plugin
-  - groovy-testng-plugin
-  - idea-plugin
-  - java-plugin
-  - java-testng-plugin
-  - release-git-plugin
-  - spock-plugin
-  - tomcat-plugin
-  - webapp-plugin
+  - savant-io:
+     git_clone_url : git@github.com:inversoft/savant-io.git
+  - savant-utils:
+     git_clone_url : git@github.com:inversoft/savant-utils.git
+  - savant-dependency-management:
+     git_clone_url : git@github.com:inversoft/savant-dependency-management.git
+  - savant-core:
+     git_clone_url : git@github.com:inversoft/savant-core.git
+  - savant-maven-bridge:
+     git_clone_url : git@github.com:inversoft/savant-maven-bridge.git
+  - dependency-plugin:
+     git_clone_url : git@github.com:inversoft/savant-dependency-plugin.git
+  - file-plugin:
+     git_clone_url : git@github.com:inversoft/savant-file-plugin.git
+  - database-plugin:
+     git_clone_url : git@github.com:inversoft/savant-database-plugin.git
+  - deb-plugin:
+     git_clone_url : git@github.com:inversoft/savant-deb-plugin.git
+  - groovy-plugin:
+     git_clone_url : git@github.com:inversoft/savant-groovy-plugin.git
+  - groovy-testng-plugin:
+     git_clone_url : git@github.com:inversoft/savant-groovy-testng-plugin.git
+  - idea-plugin:
+     git_clone_url : git@github.com:inversoft/savant-idea-plugin.git
+  - java-plugin:
+     git_clone_url : git@github.com:inversoft/savant-java-plugin.git
+  - java-testng-plugin:
+     git_clone_url : git@github.com:inversoft/savant-java-testng-plugin.git
+  - release-git-plugin:
+     git_clone_url : git@github.com:inversoft/savant-release-git-plugin.git
+  - spock-plugin:
+     git_clone_url : git@github.com:inversoft/savant-spock-plugin.git
+  - tomcat-plugin:
+     git_clone_url : git@github.com:inversoft/savant-tomcat-plugin.git
+  - webapp-plugin:
+     git_clone_url : git@github.com:inversoft/savant-webapp-plugin.git
 front-ends:
 bundles:
   - savant-core
