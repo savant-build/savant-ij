@@ -27,6 +27,10 @@ projects:
      git_clone_url : git@github.com:inversoft/savant-java-plugin.git
   - java-testng-plugin:
      git_clone_url : git@github.com:inversoft/savant-java-testng-plugin.git
+  - csharp-plugin:
+     git_clone_url : git@github.com:inversoft/savant-csharp-plugin.git
+  - csharp-nunit-plugin:
+     git_clone_url : git@github.com:inversoft/savant-csharp-nunit-plugin.git
   - release-git-plugin:
      git_clone_url : git@github.com:inversoft/savant-release-git-plugin.git
   - spock-plugin:
