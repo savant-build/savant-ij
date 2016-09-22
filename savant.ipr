@@ -743,8 +743,17 @@
     </option>
     <option name="USE_PER_PROJECT_SETTINGS" value="true" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="bpontarelli">
+      <words>
+        <w>csharp</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../csharp-nunit-plugin/csharp-nunit-plugin.iml" filepath="$PROJECT_DIR$/../csharp-nunit-plugin/csharp-nunit-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../csharp-plugin/csharp-plugin.iml" filepath="$PROJECT_DIR$/../csharp-plugin/csharp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../database-plugin/database-plugin.iml" filepath="$PROJECT_DIR$/../database-plugin/database-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" filepath="$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" filepath="$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" />
@@ -812,6 +821,7 @@
     </configuration>
   </component>
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../csharp-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../database-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../deb-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dependency-plugin" vcs="Git" />
@@ -844,6 +854,7 @@
     <mapping directory="$PROJECT_DIR$/../wikis/savant-java-testng-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-maven-bridge.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-release-git-plugin.wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../wikis/savant-spock-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-tomcat-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-utils.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-webapp-plugin.wiki" vcs="Git" />
