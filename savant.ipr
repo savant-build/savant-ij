@@ -263,7 +263,7 @@
           <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
         </JavaCodeStyleSettings>
         <MarkdownNavigatorCodeStyleSettings>
-          <option name="RIGHT_MARGIN" value="72" />
+          <option name="RIGHT_MARGIN" value="-1" />
         </MarkdownNavigatorCodeStyleSettings>
         <XML>
           <option name="XML_ATTRIBUTE_WRAP" value="0" />
@@ -764,6 +764,7 @@
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" filepath="$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-io/savant-io.iml" filepath="$PROJECT_DIR$/../savant-io/savant-io.iml" />
@@ -832,6 +833,7 @@
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../release-git-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-build.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />

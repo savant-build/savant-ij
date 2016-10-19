@@ -1,44 +1,46 @@
 projects:
   - savant-io:
-     git_clone_url : git@github.com:inversoft/savant-io.git
+     git_clone_url : git@github.com:savant-build/savant-io.git
   - savant-utils:
-     git_clone_url : git@github.com:inversoft/savant-utils.git
+     git_clone_url : git@github.com:savant-build/savant-utils.git
   - savant-dependency-management:
-     git_clone_url : git@github.com:inversoft/savant-dependency-management.git
+     git_clone_url : git@github.com:savant-build/savant-dependency-management.git
   - savant-core:
-     git_clone_url : git@github.com:inversoft/savant-core.git
+     git_clone_url : git@github.com:savant-build/savant-core.git
   - savant-maven-bridge:
-     git_clone_url : git@github.com:inversoft/savant-maven-bridge.git
+     git_clone_url : git@github.com:savant-build/savant-maven-bridge.git
   - dependency-plugin:
-     git_clone_url : git@github.com:inversoft/savant-dependency-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-dependency-plugin.git
   - file-plugin:
-     git_clone_url : git@github.com:inversoft/savant-file-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-file-plugin.git
   - database-plugin:
-     git_clone_url : git@github.com:inversoft/savant-database-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-database-plugin.git
   - deb-plugin:
-     git_clone_url : git@github.com:inversoft/savant-deb-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-deb-plugin.git
   - groovy-plugin:
-     git_clone_url : git@github.com:inversoft/savant-groovy-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-groovy-plugin.git
   - groovy-testng-plugin:
-     git_clone_url : git@github.com:inversoft/savant-groovy-testng-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-groovy-testng-plugin.git
   - idea-plugin:
-     git_clone_url : git@github.com:inversoft/savant-idea-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-idea-plugin.git
   - java-plugin:
-     git_clone_url : git@github.com:inversoft/savant-java-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-java-plugin.git
   - java-testng-plugin:
-     git_clone_url : git@github.com:inversoft/savant-java-testng-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-java-testng-plugin.git
   - csharp-plugin:
-     git_clone_url : git@github.com:inversoft/savant-csharp-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-csharp-plugin.git
   - csharp-nunit-plugin:
-     git_clone_url : git@github.com:inversoft/savant-csharp-nunit-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-csharp-nunit-plugin.git
   - release-git-plugin:
-     git_clone_url : git@github.com:inversoft/savant-release-git-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-release-git-plugin.git
   - spock-plugin:
-     git_clone_url : git@github.com:inversoft/savant-spock-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-spock-plugin.git
   - tomcat-plugin:
-     git_clone_url : git@github.com:inversoft/savant-tomcat-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-tomcat-plugin.git
   - webapp-plugin:
-     git_clone_url : git@github.com:inversoft/savant-webapp-plugin.git
+     git_clone_url : git@github.com:savant-build/savant-webapp-plugin.git
+  - savant-build.github.io:
+     git_clone_url : git@github.com:savant-build/savant-build.github.io.git
 front-ends:
 bundles:
   - savant-core
