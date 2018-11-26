@@ -44,7 +44,7 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="IdProvider" IDEtalkID="9A174EF58BDA19265C2CBCB8750FAC62" />
@@ -218,7 +218,7 @@
         <option name="HTML_ATTRIBUTE_WRAP" value="0" />
         <option name="HTML_TEXT_WRAP" value="0" />
       </HTMLCodeStyleSettings>
-      <JSCodeStyleSettings>
+      <JSCodeStyleSettings version="0">
         <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
       </JSCodeStyleSettings>
       <JavaCodeStyleSettings>
@@ -1328,6 +1328,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="recording" autostart="false" />
       <option name="MAIN_CLASS_NAME" value="org.savantbuild.dep.maven.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/cache" />
