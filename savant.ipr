@@ -64,6 +64,9 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
   <component name="Palette2">
     <group name="Swing">
       <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
@@ -1290,6 +1293,7 @@
       <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kotlin-plugin/kotlin-plugin.iml" filepath="$PROJECT_DIR$/../kotlin-plugin/kotlin-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" filepath="$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
@@ -1303,7 +1307,7 @@
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="Java 1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Java 1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectRunConfigurationManager">
@@ -1360,6 +1364,7 @@
     <mapping directory="$PROJECT_DIR$/../idea-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../kotlin-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../release-git-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-build.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
@@ -1388,5 +1393,24 @@
     <mapping directory="$PROJECT_DIR$/../wikis/savant-tomcat-plugin.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-utils.wiki" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../wikis/savant-webapp-plugin.wiki" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="KotlinJavaRuntime">
+      <CLASSES>
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-test.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect-sources.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-test-sources.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7-sources.jar!/" />
+        <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
 </project>
