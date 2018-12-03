@@ -31,8 +31,8 @@ projects:
       git_clone_url: git@github.com:savant-build/kotlin-plugin.git
   - csharp-plugin:
       git_clone_url: git@github.com:savant-build/savant-csharp-plugin.git
-  - csharp-nunit-plugin:
-      git_clone_url: git@github.com:savant-build/savant-csharp-nunit-plugin.git
+#  - csharp-nunit-plugin:
+#      git_clone_url: git@github.com:savant-build/savant-csharp-nunit-plugin.git
   - release-git-plugin:
       git_clone_url: git@github.com:savant-build/savant-release-git-plugin.git
   - spock-plugin:
