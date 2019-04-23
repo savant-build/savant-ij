@@ -44,7 +44,7 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="PROJECT" charset="UTF-8" />
   </component>
   <component name="IdProvider" IDEtalkID="9A174EF58BDA19265C2CBCB8750FAC62" />
@@ -1382,6 +1382,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" filepath="$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kotlin-plugin/test-project/test-project.iml" filepath="$PROJECT_DIR$/../kotlin-plugin/test-project/test-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" filepath="$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
