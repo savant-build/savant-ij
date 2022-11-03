@@ -1,4 +1,6 @@
 projects:
+  - savant-version:
+      git_clone_url: git@github.com:savant-build/savant-version.git
   - savant-io:
       git_clone_url: git@github.com:savant-build/savant-io.git
   - savant-utils:
@@ -27,16 +29,16 @@ projects:
       git_clone_url: git@github.com:savant-build/savant-java-plugin.git
   - java-testng-plugin:
       git_clone_url: git@github.com:savant-build/savant-java-testng-plugin.git
-  - kotlin-plugin:
-      git_clone_url: git@github.com:savant-build/kotlin-plugin.git
-  - csharp-plugin:
-      git_clone_url: git@github.com:savant-build/savant-csharp-plugin.git
+#  - kotlin-plugin:
+#      git_clone_url: git@github.com:savant-build/kotlin-plugin.git
+#  - csharp-plugin:
+#      git_clone_url: git@github.com:savant-build/savant-csharp-plugin.git
 #  - csharp-nunit-plugin:
 #      git_clone_url: git@github.com:savant-build/savant-csharp-nunit-plugin.git
   - release-git-plugin:
       git_clone_url: git@github.com:savant-build/savant-release-git-plugin.git
-  - spock-plugin:
-      git_clone_url: git@github.com:savant-build/savant-spock-plugin.git
+#  - spock-plugin:
+#      git_clone_url: git@github.com:savant-build/savant-spock-plugin.git
   - tomcat-plugin:
       git_clone_url: git@github.com:savant-build/savant-tomcat-plugin.git
   - webapp-plugin:
