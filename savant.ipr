@@ -522,6 +522,7 @@
           </value>
         </option>
         <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
+        <option name="JD_INDENT_ON_CONTINUATION" value="true" />
       </JavaCodeStyleSettings>
       <JetCodeStyleSettings>
         <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
@@ -566,6 +567,7 @@
       <codeStyleSettings language="JAVA">
         <option name="BLANK_LINES_AROUND_FIELD" value="1" />
         <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+        <option name="WRAP_COMMENTS" value="true" />
         <option name="FIELD_ANNOTATION_WRAP" value="0" />
         <indentOptions>
           <option name="INDENT_SIZE" value="2" />
@@ -1573,7 +1575,6 @@
       <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../kotlin-plugin/kotlin-plugin.iml" filepath="$PROJECT_DIR$/../kotlin-plugin/kotlin-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" filepath="$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
@@ -1581,8 +1582,7 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-io/savant-io.iml" filepath="$PROJECT_DIR$/../savant-io/savant-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" filepath="$PROJECT_DIR$/../spock-plugin/spock-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../kotlin-plugin/test-project/test-project.iml" filepath="$PROJECT_DIR$/../kotlin-plugin/test-project/test-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../savant-version/savant-version.iml" filepath="$PROJECT_DIR$/../savant-version/savant-version.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" filepath="$PROJECT_DIR$/../webapp-plugin/webapp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
@@ -1645,7 +1645,6 @@
     <mapping directory="$PROJECT_DIR$/../idea-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../kotlin-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../release-git-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-build.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
@@ -1654,26 +1653,9 @@
     <mapping directory="$PROJECT_DIR$/../savant-io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../spock-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../savant-version" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tomcat-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../webapp-plugin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-core.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-database-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-deb-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-management.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-dependency-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-file-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-groovy-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-groovy-testng-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-idea-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-java-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-java-testng-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-maven-bridge.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-release-git-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-spock-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-tomcat-plugin.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-utils.wiki" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wikis/savant-webapp-plugin.wiki" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="KotlinJavaRuntime">
