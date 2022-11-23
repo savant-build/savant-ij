@@ -10,29 +10,31 @@ projects:
   - savant-core:
       git_clone_url: git@github.com:savant-build/savant-core.git
   - dependency-plugin:
-      git_clone_url: git@github.com:savant-build/savant-dependency-plugin.git
+      git_clone_url: git@github.com:savant-build/dependency-plugin.git
   - file-plugin:
-      git_clone_url: git@github.com:savant-build/savant-file-plugin.git
+      git_clone_url: git@github.com:savant-build/file-plugin.git
   - database-plugin:
-      git_clone_url: git@github.com:savant-build/savant-database-plugin.git
+      git_clone_url: git@github.com:savant-build/database-plugin.git
   - deb-plugin:
-      git_clone_url: git@github.com:savant-build/savant-deb-plugin.git
+      git_clone_url: git@github.com:savant-build/deb-plugin.git
   - groovy-plugin:
-      git_clone_url: git@github.com:savant-build/savant-groovy-plugin.git
+      git_clone_url: git@github.com:savant-build/groovy-plugin.git
   - groovy-testng-plugin:
-      git_clone_url: git@github.com:savant-build/savant-groovy-testng-plugin.git
+      git_clone_url: git@github.com:savant-build/groovy-testng-plugin.git
   - idea-plugin:
-      git_clone_url: git@github.com:savant-build/savant-idea-plugin.git
+      git_clone_url: git@github.com:savant-build/idea-plugin.git
   - java-plugin:
-      git_clone_url: git@github.com:savant-build/savant-java-plugin.git
+      git_clone_url: git@github.com:savant-build/java-plugin.git
   - java-testng-plugin:
-      git_clone_url: git@github.com:savant-build/savant-java-testng-plugin.git
+      git_clone_url: git@github.com:savant-build/java-testng-plugin.git
+  - pom-plugin:
+      git_clone_url: git@github.com:savant-build/pom-plugin.git
   - release-git-plugin:
-      git_clone_url: git@github.com:savant-build/savant-release-git-plugin.git
+      git_clone_url: git@github.com:savant-build/release-git-plugin.git
   - tomcat-plugin:
-      git_clone_url: git@github.com:savant-build/savant-tomcat-plugin.git
+      git_clone_url: git@github.com:savant-build/tomcat-plugin.git
   - webapp-plugin:
-      git_clone_url: git@github.com:savant-build/savant-webapp-plugin.git
+      git_clone_url: git@github.com:savant-build/webapp-plugin.git
   - savant-build.github.io:
       git_clone_url: git@github.com:savant-build/savant-build.github.io.git
 #  - savant-maven-bridge:

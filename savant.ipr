@@ -1575,6 +1575,7 @@
       <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" filepath="$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" filepath="$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
@@ -1645,6 +1646,7 @@
     <mapping directory="$PROJECT_DIR$/../idea-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../java-testng-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pom-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../release-git-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-build.github.io" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-core" vcs="Git" />
