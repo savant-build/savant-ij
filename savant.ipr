@@ -1564,8 +1564,6 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../csharp-nunit-plugin/csharp-nunit-plugin.iml" filepath="$PROJECT_DIR$/../csharp-nunit-plugin/csharp-nunit-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../csharp-plugin/csharp-plugin.iml" filepath="$PROJECT_DIR$/../csharp-plugin/csharp-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../database-plugin/database-plugin.iml" filepath="$PROJECT_DIR$/../database-plugin/database-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" filepath="$PROJECT_DIR$/../deb-plugin/deb-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" filepath="$PROJECT_DIR$/../dependency-plugin/dependency-plugin.iml" />
@@ -1581,7 +1579,6 @@
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" filepath="$PROJECT_DIR$/../savant-dependency-management/savant-dependency-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-io/savant-io.iml" filepath="$PROJECT_DIR$/../savant-io/savant-io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" filepath="$PROJECT_DIR$/../savant-maven-bridge/savant-maven-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-utils/savant-utils.iml" filepath="$PROJECT_DIR$/../savant-utils/savant-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-version/savant-version.iml" filepath="$PROJECT_DIR$/../savant-version/savant-version.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" filepath="$PROJECT_DIR$/../tomcat-plugin/tomcat-plugin.iml" />
@@ -1589,7 +1586,7 @@
       <module fileurl="file://$PROJECT_DIR$/wikis.iml" filepath="$PROJECT_DIR$/wikis.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Java 1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="Java 17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectRunConfigurationManager">
@@ -1636,7 +1633,6 @@
     </configuration>
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../csharp-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../database-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../deb-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dependency-plugin" vcs="Git" />
@@ -1653,7 +1649,6 @@
     <mapping directory="$PROJECT_DIR$/../savant-dependency-management" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-io" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../savant-maven-bridge" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../savant-version" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tomcat-plugin" vcs="Git" />
