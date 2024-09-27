@@ -27,6 +27,8 @@ projects:
       git_clone_url: git@github.com:savant-build/java-plugin.git
   - java-testng-plugin:
       git_clone_url: git@github.com:savant-build/java-testng-plugin.git
+  - linter-plugin:
+      git_clone_url: git@github.com:savant-build/linter-plugin.git
   - pom-plugin:
       git_clone_url: git@github.com:savant-build/pom-plugin.git
   - release-git-plugin:
