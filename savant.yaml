@@ -1,3 +1,4 @@
+name: Savant
 projects:
   - savant-version:
       git_clone_url: git@github.com:savant-build/savant-version.git
