@@ -499,6 +499,7 @@
       </JSCodeStyleSettings>
       <JavaCodeStyleSettings>
         <option name="GENERATE_FINAL_LOCALS" value="true" />
+        <option name="BLANK_LINES_AROUND_FIELD_WITH_ANNOTATIONS" value="1" />
         <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
         <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
         <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
@@ -509,6 +510,7 @@
         </option>
         <option name="IMPORT_LAYOUT_TABLE">
           <value>
+            <package name="" withSubpackages="true" static="false" module="true" />
             <package name="javax" withSubpackages="true" static="false" />
             <package name="java" withSubpackages="true" static="false" />
             <emptyLine />
@@ -1571,8 +1573,8 @@
       <module fileurl="file://$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/../idea-plugin/idea-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-plugin/java-plugin.iml" filepath="$PROJECT_DIR$/../java-plugin/java-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" filepath="$PROJECT_DIR$/../java-testng-plugin/java-testng-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" filepath="$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../linter-plugin/linter-plugin.iml" filepath="$PROJECT_DIR$/../linter-plugin/linter-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" filepath="$PROJECT_DIR$/../pom-plugin/pom-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" filepath="$PROJECT_DIR$/../release-git-plugin/release-git-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" filepath="$PROJECT_DIR$/../savant-build.github.io/savant-build.github.io.iml" />
       <module fileurl="file://$PROJECT_DIR$/../savant-core/savant-core.iml" filepath="$PROJECT_DIR$/../savant-core/savant-core.iml" />
