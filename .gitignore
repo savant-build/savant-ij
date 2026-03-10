@@ -1,4 +1,4 @@
 *.iws
 **/.DS_Store
 cache
-.claude
+.claude/settings.local.json
