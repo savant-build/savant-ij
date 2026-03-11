@@ -29,7 +29,7 @@ Java 17 is required. Test framework is TestNG.
 
 ## Sub-Project Layout
 
-**Core libraries** and **plugins** are versioned and released independently. The core Savant runtime can be updated without releasing all plugins, and vice versa.
+**Core libraries** and **plugins** are versioned and released independently. The core Savant runtime can be updated without releasing all plugins, and vice versa. The **Website** is a static site and is not versioned and can be released at any time.
 
 **Core libraries** (Java, use `java` plugin) — all share the same version number and are branched/released together:
 - `savant-version` — Semantic version parsing (no deps on other Savant libs)
@@ -41,6 +41,9 @@ Java 17 is required. Test framework is TestNG.
 **Plugins** (Groovy, use `groovy` plugin — source in `src/main/groovy`) — each versioned and released independently:
 - `dependency-plugin`, `file-plugin`, `java-plugin`, `groovy-plugin`, `java-testng-plugin`, `groovy-testng-plugin`, `idea-plugin`, `release-git-plugin`, `database-plugin`, `deb-plugin`, `tomcat-plugin`, `webapp-plugin`, `pom-plugin`, `linter-plugin`, `kotlin-plugin`, `license-plugin`, `jarjar-plugin`
 
+**Website**
+- `savant-build.github.io` contains a static website that is built using Jekyll and pushed to GitHub Pages
+
 ## Branching and Versioning Workflow
 
 **Core libraries** must use the **same branch name** across all core repos for a given bug fix or feature, and all core project versions must match.
@@ -48,6 +51,10 @@ Java 17 is required. Test framework is TestNG.
 When starting work:
 - **Bug fix:** Assume the next **patch** version (e.g., `2.0.2` → `2.0.3`). Bump the version in `build.savant` across all core projects.
 - **New feature:** Assume the next **minor** version (e.g., `2.0.2` → `2.1.0`). Bump the version in `build.savant` across all core projects.
+
+Branch naming conventions:
+- **New feature:** prefix with `features/` (e.g., `features/xdg-directories`)
+- **Bug fix:** prefix with `fixes/` or use a descriptive name
 
 Create the same branch name in every core repo that needs changes, bump all versions to match, then use `sb int` up the dependency chain to propagate.
 
@@ -73,8 +80,9 @@ After modifying a library, bump its version in `build.savant`, run `sb int`, the
 
 - **Plugins** are Groovy objects loaded via `loadPlugin()` — they expose methods you call inside targets, they do not define targets themselves
 - **Semantic versioning** is enforced for all projects, plugins, and dependencies — every version must conform to semver (http://semver.org). Savant will reject non-semantic versions. Integration builds append `{integration}` suffix (e.g., `1.0.8-{integration}`). When bumping versions: patch for bug fixes, minor for new features, major for breaking API changes
-- **Local cache:** `~/.savant/cache`
-- **Plugin config:** `~/.savant/plugins/` (e.g., Java JDK paths in `org.savantbuild.plugin.java.properties`)
+- **Local cache:** `$XDG_CACHE_HOME/savant` (default `~/.cache/savant`)
+- **Plugin config:** `$XDG_CONFIG_HOME/savant/plugins/` (default `~/.config/savant/plugins/`, e.g., Java JDK paths in `org.savantbuild.plugin.java.properties`)
+- **Global config:** `$XDG_CONFIG_HOME/savant/config.properties` (default `~/.config/savant/config.properties`)
 - **Standard project layout:** `src/main/java` (or `src/main/groovy`), `src/test/java`, `build/classes/`, `build/jars/`
 
 ## Code Style
