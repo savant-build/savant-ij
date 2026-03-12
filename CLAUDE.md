@@ -58,6 +58,8 @@ Branch naming conventions:
 
 Create the same branch name in every core repo that needs changes, bump all versions to match, then use `sb int` up the dependency chain to propagate.
 
+All pull requests should be based off `main` unless specifically told otherwise.
+
 ## Dependency Chain
 
 Changes to lower-level libraries require integration builds (`sb int`) before downstream projects can pick them up:

@@ -23,11 +23,11 @@ All core repos must use the same branch name and version `2.2.0`.
 - Modify: `/Users/bpontarelli/dev/os/savant/savant-dependency-management/build.savant:16-17` — `savantVersion` and project version `2.1.0` → `2.2.0`
 - Modify: `/Users/bpontarelli/dev/os/savant/savant-core/build.savant:16-17` — `savantVersion` and project version `2.1.0` → `2.2.0`
 
-- [ ] **Step 1: Create branch `xdg-directories` in all 5 core repos**
+- [ ] **Step 1: Create branch `features/xdg-directories` in all 5 core repos**
 
 ```bash
 for repo in savant-version savant-utils savant-io savant-dependency-management savant-core; do
-  cd /Users/bpontarelli/dev/os/savant/$repo && git checkout -b xdg-directories
+  cd /Users/bpontarelli/dev/os/savant/$repo && git checkout -b features/xdg-directories
 done
 ```
 

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "additionalDirectories": [
+      "../",
+      "../savant-build.github.io/",
+      "../database-plugin/",
+      "../deb-plugin/",
+      "../dependency-plugin/",
+      "../file-plugin/",
+      "../groovy-plugin/",
+      "../groovy-testng-plugin/",
+      "../idea-plugin/",
+      "../java-plugin/",
+      "../java-testng-plugin/",
+      "../linter-plugin/",
+      "../pom-plugin/",
+      "../release-git-plugin/",
+      "../savant-core/",
+      "../savant-dependency-management/",
+      "../savant-io/",
+      "../savant-utils/",
+      "../savant-version/",
+      "../tomcat-plugin/",
+      "../webapp-plugin/"
+    ],
+    "allow": [
+      "Bash(cd *)",
+      "Bash(echo *)",
+      "Bash(find *)",
+      "Bash(git clone *)",
+      "Bash(grep *)",
+      "Bash(ls*)",
+      "Bash(npm *)",
+      "Bash(sb *)",
+      "Bash(xargs *)",
+      "Read(**/*)"
+    ],
+    "defaultMode": "acceptEdits",
+    "disableBypassPermissionsMode": "disable"
+  }
+}
